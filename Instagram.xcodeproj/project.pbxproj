@@ -35,6 +35,10 @@
 		AD2AF82825012D6F00F54EA3 /* IGFeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2AF82725012D6F00F54EA3 /* IGFeedPostHeaderTableViewCell.swift */; };
 		AD2AF82A25012D8B00F54EA3 /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2AF82925012D8B00F54EA3 /* IGFeedPostActionsTableViewCell.swift */; };
 		AD2AF82C25012DAC00F54EA3 /* IGFeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2AF82B25012DAC00F54EA3 /* IGFeedPostGeneralTableViewCell.swift */; };
+		ADBD13C4250788A80043D203 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBD13C3250788A80043D203 /* FormTableViewCell.swift */; };
+		ADBD13C72507944A0043D203 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBD13C62507944A0043D203 /* PhotoCollectionViewCell.swift */; };
+		ADBD13C9250794D90043D203 /* ProfileInfoheaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBD13C8250794D90043D203 /* ProfileInfoheaderCollectionReusableView.swift */; };
+		ADBD13CB250795320043D203 /* ProfileTabsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBD13CA250795320043D203 /* ProfileTabsCollectionReusableView.swift */; };
 		B9AAF7C047A7DBDC3EAD010C /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3246B79AE71DAD5DB49E53A /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +74,10 @@
 		AD2AF82725012D6F00F54EA3 /* IGFeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		AD2AF82925012D8B00F54EA3 /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
 		AD2AF82B25012DAC00F54EA3 /* IGFeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
+		ADBD13C3250788A80043D203 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
+		ADBD13C62507944A0043D203 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		ADBD13C8250794D90043D203 /* ProfileInfoheaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoheaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		ADBD13CA250795320043D203 /* ProfileTabsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabsCollectionReusableView.swift; sourceTree = "<group>"; };
 		B4ACA4CBF9BC874356B01F82 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 		D3246B79AE71DAD5DB49E53A /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -136,6 +144,7 @@
 		AD0E013724E97A7F007EDD73 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ADBD13C5250794120043D203 /* CollectionView Headers */,
 				AD2AF82325012A3300F54EA3 /* Cells */,
 				AD0E012C24E97A70007EDD73 /* Assets.xcassets */,
 				AD0E013A24E97ADB007EDD73 /* Storyboards */,
@@ -230,6 +239,8 @@
 			isa = PBXGroup;
 			children = (
 				AD2AF82625012D4200F54EA3 /* Home Feed */,
+				ADBD13C3250788A80043D203 /* FormTableViewCell.swift */,
+				ADBD13C62507944A0043D203 /* PhotoCollectionViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -243,6 +254,15 @@
 				AD2AF82B25012DAC00F54EA3 /* IGFeedPostGeneralTableViewCell.swift */,
 			);
 			path = "Home Feed";
+			sourceTree = "<group>";
+		};
+		ADBD13C5250794120043D203 /* CollectionView Headers */ = {
+			isa = PBXGroup;
+			children = (
+				ADBD13C8250794D90043D203 /* ProfileInfoheaderCollectionReusableView.swift */,
+				ADBD13CA250795320043D203 /* ProfileTabsCollectionReusableView.swift */,
+			);
+			path = "CollectionView Headers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +382,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD2AF82825012D6F00F54EA3 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
+				ADBD13C9250794D90043D203 /* ProfileInfoheaderCollectionReusableView.swift in Sources */,
+				ADBD13C72507944A0043D203 /* PhotoCollectionViewCell.swift in Sources */,
 				AD2AF82A25012D8B00F54EA3 /* IGFeedPostActionsTableViewCell.swift in Sources */,
 				AD2AF82C25012DAC00F54EA3 /* IGFeedPostGeneralTableViewCell.swift in Sources */,
 				AD0E014024E97BA3007EDD73 /* PostViewController.swift in Sources */,
@@ -370,6 +392,7 @@
 				AD0E014A24E97C32007EDD73 /* SearchResultViewController.swift in Sources */,
 				AD0E015824EA36B9007EDD73 /* LoginViewController.swift in Sources */,
 				AD0E015C24EA39DD007EDD73 /* DatabaseManager.swift in Sources */,
+				ADBD13CB250795320043D203 /* ProfileTabsCollectionReusableView.swift in Sources */,
 				AD0E015224E97CC1007EDD73 /* NotificationsViewController.swift in Sources */,
 				AD0E015424E97CD8007EDD73 /* ProfileViewController.swift in Sources */,
 				AD0E012824E97A6D007EDD73 /* HomeViewController.swift in Sources */,
@@ -384,6 +407,7 @@
 				AD0E012624E97A6D007EDD73 /* SceneDelegate.swift in Sources */,
 				AD0E014424E97BF4007EDD73 /* SettingsViewController.swift in Sources */,
 				AD0E014E24E97C99007EDD73 /* ExploreViewController.swift in Sources */,
+				ADBD13C4250788A80043D203 /* FormTableViewCell.swift in Sources */,
 				AD0E014624E97C09007EDD73 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
