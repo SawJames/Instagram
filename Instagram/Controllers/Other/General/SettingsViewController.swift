@@ -52,6 +52,8 @@ final class SettingsViewController: UIViewController {
             },
         ])
         
+        
+        
         data.append([
             SettingCellModel(title: "Terms of Service"){ [weak self] in
                 self?.openURL(type: .terms)

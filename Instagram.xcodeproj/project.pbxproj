@@ -39,6 +39,7 @@
 		ADBD13C72507944A0043D203 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBD13C62507944A0043D203 /* PhotoCollectionViewCell.swift */; };
 		ADBD13C9250794D90043D203 /* ProfileInfoheaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBD13C8250794D90043D203 /* ProfileInfoheaderCollectionReusableView.swift */; };
 		ADBD13CB250795320043D203 /* ProfileTabsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBD13CA250795320043D203 /* ProfileTabsCollectionReusableView.swift */; };
+		ADC0C32A252342D800C015FD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC0C329252342D800C015FD /* Model.swift */; };
 		B9AAF7C047A7DBDC3EAD010C /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3246B79AE71DAD5DB49E53A /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,7 @@
 		ADBD13C62507944A0043D203 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		ADBD13C8250794D90043D203 /* ProfileInfoheaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoheaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		ADBD13CA250795320043D203 /* ProfileTabsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabsCollectionReusableView.swift; sourceTree = "<group>"; };
+		ADC0C329252342D800C015FD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		B4ACA4CBF9BC874356B01F82 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 		D3246B79AE71DAD5DB49E53A /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -169,6 +171,7 @@
 		AD0E013924E97AC9007EDD73 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				ADC0C329252342D800C015FD /* Model.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				AD082C7224F0100E00FD55AB /* Extensions.swift in Sources */,
 				AD0E012624E97A6D007EDD73 /* SceneDelegate.swift in Sources */,
 				AD0E014424E97BF4007EDD73 /* SettingsViewController.swift in Sources */,
+				ADC0C32A252342D800C015FD /* Model.swift in Sources */,
 				AD0E014E24E97C99007EDD73 /* ExploreViewController.swift in Sources */,
 				ADBD13C4250788A80043D203 /* FormTableViewCell.swift in Sources */,
 				AD0E014624E97C09007EDD73 /* ListViewController.swift in Sources */,
